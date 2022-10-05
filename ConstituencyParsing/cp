@@ -1,0 +1,32 @@
+// \<pos\> \<pos\> \<pos\> \<pos\> \<pos\>
+digraph {
+	1 [label=TOP]
+	2 [label=S]
+	1 -> 2
+	3 [label="\<pos\>"]
+	2 -> 3
+	4 [label=But]
+	3 -> 4
+	5 [label=NP]
+	2 -> 5
+	6 [label=VP]
+	2 -> 6
+	7 [label="\<pos\>"]
+	5 -> 7
+	8 [label=there]
+	7 -> 8
+	9 [label="\<pos\>"]
+	6 -> 9
+	10 [label=were]
+	9 -> 10
+	11 [label=NP]
+	6 -> 11
+	12 [label="\<pos\>"]
+	11 -> 12
+	13 [label=no]
+	12 -> 13
+	14 [label="\<pos\>"]
+	11 -> 14
+	15 [label=buyers]
+	14 -> 15
+}

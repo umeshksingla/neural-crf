@@ -1,0 +1,4 @@
+(TOP (S (NP (NNS Buyers)) (VP (VBD stepped) (ADVP (RB in) (PP (TO to) (NP (DT the) (NNS futures) (NN pit))))) (. .)))
+(TOP (S (CC But) (NP (EX there)) (VP (VBD were) (NP (DT no) (NNS buyers))) (. .)))
+(TOP (S (ADVP (RB Just)) (VP (VBN thought) (SBAR (S (NP (PRP you)) (VP (MD 'd) (VP (VB like) (S (VP (TO to) (VP (VB know))))))))) (. .)))
+(TOP (NP (NNP George) (NNP Morton)))

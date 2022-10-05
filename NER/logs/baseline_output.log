@@ -1,0 +1,389 @@
+--- EPOCH 0 ---
+Avg loss over last 500 updates: 8.946532606005668
+Avg loss over last 500 updates: 6.682028229528107
+Avg loss over last 500 updates: 6.258443628089503
+Avg loss over last 500 updates: 6.598942492638249
+Avg loss over last 500 updates: 5.418072278042324
+Avg loss over last 500 updates: 5.597928476557951
+evaluating..
+Evaluated 500
+Avg evaluation loss:
+processed 11170 tokens with 1231 phrases; found: 680 phrases; correct: 439.
+accuracy:  40.14%; (non-O)
+accuracy:  89.56%; precision:  64.56%; recall:  35.66%; FB1:  45.94
+              LOC: precision:  79.03%; recall:  40.16%; FB1:  53.26  186
+             MISC: precision:  55.41%; recall:  21.47%; FB1:  30.94  74
+              ORG: precision:  59.68%; recall:  36.27%; FB1:  45.12  186
+              PER: precision:  59.83%; recall:  38.04%; FB1:  46.51  234
+
+2 random evaluation samples:
+SENT: Britain 's <unk> <unk> said on Wednesday he might change his <unk> and go for a fifth consecutive Olympic gold <unk> at the 0000 Games in Sydney .
+TRUE: I-LOC O I-PER I-PER O O O O O O O O O O O O O O I-MISC O O O O I-ORG I-ORG O I-LOC O
+PRED: I-LOC O I-PER I-PER O O O O O O O O O O O O O O O O O O O O O O O O
+SENT: Under the revised <unk> state spending is expected to rise by some 0000 billion lei .
+TRUE: O O O O O O O O O O O O O O O O
+PRED: O O O O O O O O O O O O O O O O
+
+--- EPOCH 1 ---
+Avg loss over last 500 updates: 4.547968790586572
+Avg loss over last 500 updates: 3.8278808039199794
+Avg loss over last 500 updates: 4.071799355282478
+Avg loss over last 500 updates: 4.538093603265938
+Avg loss over last 500 updates: 3.728985987277898
+Avg loss over last 500 updates: 3.8620247198021387
+evaluating..
+Evaluated 500
+Avg evaluation loss:
+processed 11170 tokens with 1231 phrases; found: 951 phrases; correct: 629.
+accuracy:  56.99%; (non-O)
+accuracy:  91.75%; precision:  66.14%; recall:  51.10%; FB1:  57.65
+              LOC: precision:  81.92%; recall:  58.20%; FB1:  68.05  260
+             MISC: precision:  68.10%; recall:  41.36%; FB1:  51.47  116
+              ORG: precision:  53.57%; recall:  44.12%; FB1:  48.39  252
+              PER: precision:  62.54%; recall:  54.89%; FB1:  58.47  323
+
+2 random evaluation samples:
+SENT: Queens Park Rangers 0000 0000 0000 0000 0000 0000 0000
+TRUE: I-ORG I-ORG I-ORG O O O O O O O
+PRED: I-ORG I-ORG I-ORG O O O O O O O
+SENT: Syria : 0000 - <unk> Bitar , 0000 - <unk> <unk> ; 0000 - <unk> <unk> , 0000 - <unk> <unk> , 0000 - <unk> <unk> ( 0000 - <unk> <unk> 0000 ) , 0000 - <unk> <unk> , 0000 - <unk> <unk> , 0000 - Ali <unk> , 0000 - <unk> <unk> <unk> ( 0000 - <unk> <unk> 0000 ) , 0000 - <unk> <unk> ; 0000 - <unk> <unk> .
+TRUE: I-LOC O O O I-PER I-PER O O O I-PER I-PER O O O I-PER I-PER O O O I-PER I-PER O O O I-PER I-PER O O O I-PER I-PER O O O O O I-PER I-PER O O O I-PER I-PER O O O I-PER I-PER O O O I-PER I-PER I-PER O O O I-PER I-PER O O O O O I-PER I-PER O O O I-PER I-PER O
+PRED: I-LOC O O O I-PER I-PER O O O I-PER I-PER O O O I-PER I-PER O O O I-PER I-PER O O O I-PER I-PER O O O I-PER I-PER O O O O O I-PER I-PER O O O I-PER I-PER O O O I-PER I-PER O O O I-PER I-PER I-PER O O O I-PER I-PER O O O O O I-PER I-PER O O O I-PER I-PER O
+
+--- EPOCH 2 ---
+Avg loss over last 500 updates: 3.3648998076842735
+Avg loss over last 500 updates: 2.7021610646699474
+Avg loss over last 500 updates: 3.0495906081416146
+Avg loss over last 500 updates: 3.3617124318356573
+Avg loss over last 500 updates: 2.902706972761147
+Avg loss over last 500 updates: 2.864694977730056
+evaluating..
+Evaluated 500
+Avg evaluation loss:
+processed 11170 tokens with 1231 phrases; found: 1017 phrases; correct: 705.
+accuracy:  62.67%; (non-O)
+accuracy:  92.79%; precision:  69.32%; recall:  57.27%; FB1:  62.72
+              LOC: precision:  85.46%; recall:  65.85%; FB1:  74.38  282
+             MISC: precision:  69.70%; recall:  48.17%; FB1:  56.97  132
+              ORG: precision:  50.52%; recall:  48.04%; FB1:  49.25  291
+              PER: precision:  72.12%; recall:  61.14%; FB1:  66.18  312
+
+2 random evaluation samples:
+SENT: <unk> <unk> ( Romania ) beat <unk> <unk> ( Germany ) 6-3 6-2
+TRUE: I-PER I-PER O I-LOC O O I-PER I-PER O I-LOC O O O
+PRED: I-PER I-PER O I-LOC O O I-PER I-PER O I-LOC O O O
+SENT: - <unk> <unk> up <unk>
+TRUE: O I-LOC O O O
+PRED: O O O O O
+
+--- EPOCH 3 ---
+Avg loss over last 500 updates: 2.7218367280676468
+Avg loss over last 500 updates: 2.1409062079542136
+Avg loss over last 500 updates: 2.465773414520769
+Avg loss over last 500 updates: 2.6662415011710157
+Avg loss over last 500 updates: 2.2620313583662286
+Avg loss over last 500 updates: 2.230199860518736
+evaluating..
+Evaluated 500
+Avg evaluation loss:
+processed 11170 tokens with 1231 phrases; found: 1073 phrases; correct: 758.
+accuracy:  67.40%; (non-O)
+accuracy:  93.55%; precision:  70.64%; recall:  61.58%; FB1:  65.80
+              LOC: precision:  85.37%; recall:  68.58%; FB1:  76.06  294
+             MISC: precision:  77.17%; recall:  51.31%; FB1:  61.64  127
+              ORG: precision:  53.27%; recall:  55.88%; FB1:  54.55  321
+              PER: precision:  71.90%; recall:  64.67%; FB1:  68.10  331
+
+2 random evaluation samples:
+SENT: 9. Britain I ( <unk> <unk> , <unk> <unk> ) <unk> ( <unk>
+TRUE: O I-ORG I-ORG O I-PER I-PER O I-PER I-PER O O O O
+PRED: O I-LOC O O O O O I-PER O O O O O
+SENT: -DOCSTART-
+TRUE: O
+PRED: O
+
+--- EPOCH 4 ---
+Avg loss over last 500 updates: 2.2294235534795512
+Avg loss over last 500 updates: 1.8310390317207121
+Avg loss over last 500 updates: 2.020999692886542
+Avg loss over last 500 updates: 2.29826263255817
+Avg loss over last 500 updates: 1.9581085832117147
+Avg loss over last 500 updates: 1.925759558083918
+evaluating..
+Evaluated 500
+Avg evaluation loss:
+processed 11170 tokens with 1231 phrases; found: 1117 phrases; correct: 796.
+accuracy:  70.15%; (non-O)
+accuracy:  93.76%; precision:  71.26%; recall:  64.66%; FB1:  67.80
+              LOC: precision:  85.53%; recall:  72.68%; FB1:  78.58  311
+             MISC: precision:  80.77%; recall:  54.97%; FB1:  65.42  130
+              ORG: precision:  56.03%; recall:  56.21%; FB1:  56.12  307
+              PER: precision:  68.56%; recall:  68.75%; FB1:  68.66  369
+
+2 random evaluation samples:
+SENT: RTRS - <unk> <unk> net profit A$ <unk> mln .
+TRUE: I-ORG O I-ORG I-ORG O O I-MISC O O O
+PRED: I-ORG O I-ORG O O O I-MISC O O O
+SENT: They said a fire broke out at <unk> <unk> in the early hours on Saturday in <unk> village , five km ( three miles ) west of the capital <unk> .
+TRUE: O O O O O O O I-LOC O O O O O O O O I-LOC O O O O O O O O O O O O I-LOC O
+PRED: O O O O O O O O O O O O O O O O O O O O O O O O O O O O O I-LOC O
+
+--- EPOCH 5 ---
+Avg loss over last 500 updates: 1.8384241561499843
+Avg loss over last 500 updates: 1.625998300083495
+Avg loss over last 500 updates: 1.7610205782002026
+Avg loss over last 500 updates: 1.9021334500479865
+Avg loss over last 500 updates: 1.7675538937901771
+Avg loss over last 500 updates: 1.7393803372558467
+evaluating..
+Evaluated 500
+Avg evaluation loss:
+processed 11170 tokens with 1231 phrases; found: 1048 phrases; correct: 780.
+accuracy:  68.56%; (non-O)
+accuracy:  93.93%; precision:  74.43%; recall:  63.36%; FB1:  68.45
+              LOC: precision:  88.03%; recall:  74.32%; FB1:  80.59  309
+             MISC: precision:  74.29%; recall:  54.45%; FB1:  62.84  140
+              ORG: precision:  62.31%; recall:  54.58%; FB1:  58.19  268
+              PER: precision:  71.60%; recall:  64.40%; FB1:  67.81  331
+
+2 random evaluation samples:
+SENT: Philippoussis <unk> a match point at <unk> in the <unk> tie break before winning 6-3 3-6 7-6 ( 8-6 ) .
+TRUE: I-PER O O O O O O O O O O O O O O O O O O O O
+PRED: I-PER O O O O O O O O O O O O O O O O O O O O
+SENT: SOCCER - <unk> FIRST DIVISION SUMMARY .
+TRUE: O O I-MISC O O O O
+PRED: O O O O O O O
+
+--- EPOCH 6 ---
+Avg loss over last 500 updates: 1.773745039275869
+Avg loss over last 500 updates: 1.4696737644367748
+Avg loss over last 500 updates: 1.6606768014089162
+Avg loss over last 500 updates: 1.7304393843935335
+Avg loss over last 500 updates: 1.5362326350773403
+Avg loss over last 500 updates: 1.471333554521047
+evaluating..
+Evaluated 500
+Avg evaluation loss:
+processed 11170 tokens with 1231 phrases; found: 1132 phrases; correct: 798.
+accuracy:  70.93%; (non-O)
+accuracy:  93.85%; precision:  70.49%; recall:  64.83%; FB1:  67.54
+              LOC: precision:  85.03%; recall:  72.95%; FB1:  78.53  314
+             MISC: precision:  75.94%; recall:  52.88%; FB1:  62.35  133
+              ORG: precision:  53.35%; recall:  57.19%; FB1:  55.21  328
+              PER: precision:  71.43%; recall:  69.29%; FB1:  70.34  357
+
+2 random evaluation samples:
+SENT: Both <unk> were in the <unk> <unk> region of <unk> , about 0000 miles ( 0000 <unk> ) southeast of <unk> <unk> , and were located within three miles of one another .
+TRUE: O O O O O I-LOC O O O I-LOC O O O O O O O O O O I-LOC I-LOC O O O O O O O O O O O
+PRED: O O O O O O O O O I-LOC O O O O O O O O O O I-ORG O O O O O O O O O O O O
+SENT: <unk> <unk> , 0000 , was picked up from a <unk> <unk> a week ago by <unk> who took <unk> on him and <unk> him to <unk> <unk> ( <unk> <unk> ) .
+TRUE: I-PER I-PER O O O O O O O O I-LOC O O O O O O O O O O O O O O O I-LOC I-LOC O O O O O
+PRED: I-PER I-PER O O O O O O O O O O O O O O O O O O O O O O O O I-PER I-PER O O O O O
+
+--- EPOCH 7 ---
+Avg loss over last 500 updates: 1.5551299569126513
+Avg loss over last 500 updates: 1.2458401552043463
+Avg loss over last 500 updates: 1.3921755111556413
+Avg loss over last 500 updates: 1.502486108755938
+Avg loss over last 500 updates: 1.4376767704585232
+Avg loss over last 500 updates: 1.3508513340247652
+evaluating..
+Evaluated 500
+Avg evaluation loss:
+processed 11170 tokens with 1231 phrases; found: 1133 phrases; correct: 826.
+accuracy:  72.25%; (non-O)
+accuracy:  94.17%; precision:  72.90%; recall:  67.10%; FB1:  69.88
+              LOC: precision:  84.80%; recall:  76.23%; FB1:  80.29  329
+             MISC: precision:  77.04%; recall:  54.45%; FB1:  63.80  135
+              ORG: precision:  61.00%; recall:  59.80%; FB1:  60.40  300
+              PER: precision:  70.46%; recall:  70.65%; FB1:  70.56  369
+
+2 random evaluation samples:
+SENT: No arrests had been made , a police spokesman said .
+TRUE: O O O O O O O O O O O
+PRED: O O O O O O O O O O O
+SENT: The <unk> Woods , who turned <unk> Tuesday after winning an <unk> third successive U.S. <unk> <unk> , <unk> on the front nine , <unk> the first and seventh <unk> and <unk> the <unk> , <unk> ninth <unk> .
+TRUE: O O I-PER O O O O O O O O O O O I-MISC I-MISC I-MISC O O O O O O O O O O O O O O O O O O O O O O
+PRED: O O I-PER O O O O O O O O O O O I-LOC O O O O O O O O O O O O O O O O O O O O I-ORG O O O
+
+--- EPOCH 8 ---
+Avg loss over last 500 updates: 1.4942082159289634
+Avg loss over last 500 updates: 1.155788527485318
+Avg loss over last 500 updates: 1.2449632696857136
+Avg loss over last 500 updates: 1.405711837072949
+Avg loss over last 500 updates: 1.3132949406641987
+Avg loss over last 500 updates: 1.2513363432160642
+evaluating..
+Evaluated 500
+Avg evaluation loss:
+processed 11170 tokens with 1231 phrases; found: 1134 phrases; correct: 824.
+accuracy:  72.41%; (non-O)
+accuracy:  94.05%; precision:  72.66%; recall:  66.94%; FB1:  69.68
+              LOC: precision:  85.63%; recall:  78.14%; FB1:  81.71  334
+             MISC: precision:  78.83%; recall:  56.54%; FB1:  65.85  137
+              ORG: precision:  56.74%; recall:  59.15%; FB1:  57.92  319
+              PER: precision:  72.38%; recall:  67.66%; FB1:  69.94  344
+
+2 random evaluation samples:
+SENT: Some <unk> <unk> <unk> <unk> they can actually <unk> to such a point that they fly .
+TRUE: O O I-MISC O O O O O O O O O O O O O O
+PRED: O O O O O O O O O O O O O O O O O
+SENT: <unk> said <unk> the meeting carried <unk> for Singapore , " however , this is <unk> <unk> as the <unk> <unk> may not <unk> lead to any additional investment and trade <unk> to this region . "
+TRUE: I-PER O O O O O O O I-LOC O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+PRED: I-PER O O O O O O O I-LOC O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+
+--- EPOCH 9 ---
+Avg loss over last 500 updates: 1.282147759186722
+Avg loss over last 500 updates: 1.0984208296835118
+Avg loss over last 500 updates: 1.1691603585461852
+Avg loss over last 500 updates: 1.295657081229002
+Avg loss over last 500 updates: 1.2819848769088154
+Avg loss over last 500 updates: 1.043497032045068
+evaluating..
+Evaluated 500
+Avg evaluation loss:
+processed 11170 tokens with 1231 phrases; found: 1123 phrases; correct: 845.
+accuracy:  72.96%; (non-O)
+accuracy:  94.42%; precision:  75.24%; recall:  68.64%; FB1:  71.79
+              LOC: precision:  85.46%; recall:  78.69%; FB1:  81.93  337
+             MISC: precision:  75.69%; recall:  57.07%; FB1:  65.07  144
+              ORG: precision:  64.62%; recall:  58.50%; FB1:  61.41  277
+              PER: precision:  73.70%; recall:  73.10%; FB1:  73.40  365
+
+2 random evaluation samples:
+SENT: -DOCSTART-
+TRUE: O
+PRED: O
+SENT: -DOCSTART-
+TRUE: O
+PRED: O
+
+--- EPOCH 10 ---
+Avg loss over last 500 updates: 1.2224754744473696
+Avg loss over last 500 updates: 1.0262930272567996
+Avg loss over last 500 updates: 1.0874829065493847
+Avg loss over last 500 updates: 1.1594098101335664
+Avg loss over last 500 updates: 1.0902178913359206
+Avg loss over last 500 updates: 1.0603319962520663
+evaluating..
+Evaluated 500
+Avg evaluation loss:
+processed 11170 tokens with 1231 phrases; found: 1155 phrases; correct: 839.
+accuracy:  73.46%; (non-O)
+accuracy:  94.27%; precision:  72.64%; recall:  68.16%; FB1:  70.33
+              LOC: precision:  84.06%; recall:  79.23%; FB1:  81.58  345
+             MISC: precision:  71.22%; recall:  51.83%; FB1:  60.00  139
+              ORG: precision:  58.54%; recall:  60.46%; FB1:  59.49  316
+              PER: precision:  74.65%; recall:  72.01%; FB1:  73.31  355
+
+2 random evaluation samples:
+SENT: -DOCSTART-
+TRUE: O
+PRED: O
+SENT: It could be one of the most <unk> rounds of <unk> ever .
+TRUE: O O O O O O O O O O O O O
+PRED: O O O O O O O O O O O O O
+
+--- EPOCH 11 ---
+Avg loss over last 500 updates: 1.1308482498055838
+Avg loss over last 500 updates: 0.9036737404304672
+Avg loss over last 500 updates: 1.0099785736561837
+Avg loss over last 500 updates: 1.1256515852132356
+Avg loss over last 500 updates: 0.9736335852915893
+Avg loss over last 500 updates: 1.0035831917372051
+evaluating..
+Evaluated 500
+Avg evaluation loss:
+processed 11170 tokens with 1231 phrases; found: 1167 phrases; correct: 853.
+accuracy:  73.68%; (non-O)
+accuracy:  94.35%; precision:  73.09%; recall:  69.29%; FB1:  71.14
+              LOC: precision:  86.18%; recall:  80.05%; FB1:  83.00  340
+             MISC: precision:  75.00%; recall:  56.54%; FB1:  64.48  144
+              ORG: precision:  59.87%; recall:  59.48%; FB1:  59.67  304
+              PER: precision:  71.24%; recall:  73.37%; FB1:  72.29  379
+
+2 random evaluation samples:
+SENT: <unk> - <unk> Ukraine faces <unk> of cash and rain .
+TRUE: O O O I-LOC O O O O O O O
+PRED: O O I-MISC I-LOC O O O O O O O
+SENT: Suu Kyi , who <unk> a campaign for sanctions on <unk> 's government , was under house arrest for six years without being tried before being released in July 0000 .
+TRUE: I-PER I-PER O O O O O O O O I-LOC O O O O O O O O O O O O O O O O O O O O
+PRED: I-PER I-PER O O O O O O O O I-PER O O O O O O O O O O O O O O O O O O O O
+
+--- EPOCH 12 ---
+Avg loss over last 500 updates: 1.0406516526998726
+Avg loss over last 500 updates: 0.8470637610749107
+Avg loss over last 500 updates: 0.9484881574329703
+Avg loss over last 500 updates: 1.0746916488331648
+Avg loss over last 500 updates: 0.9923730732569843
+Avg loss over last 500 updates: 0.7965126163519777
+evaluating..
+Evaluated 500
+Avg evaluation loss:
+processed 11170 tokens with 1231 phrases; found: 1161 phrases; correct: 854.
+accuracy:  74.06%; (non-O)
+accuracy:  94.36%; precision:  73.56%; recall:  69.37%; FB1:  71.40
+              LOC: precision:  84.75%; recall:  78.96%; FB1:  81.75  341
+             MISC: precision:  76.19%; recall:  58.64%; FB1:  66.27  147
+              ORG: precision:  62.62%; recall:  62.42%; FB1:  62.52  305
+              PER: precision:  71.20%; recall:  71.20%; FB1:  71.20  368
+
+2 random evaluation samples:
+SENT: But <unk> <unk> , one of the refugees who signed the letter of <unk> , told Reuters :
+TRUE: O I-PER I-PER O O O O O O O O O O O O O I-ORG O
+PRED: O I-MISC O O O O O O O O O O O I-LOC O O I-ORG O
+SENT: One of the great <unk> who <unk> over a period of English <unk> in Europe in politics and the <unk> .
+TRUE: O O O O O O O O O O O I-MISC O O I-LOC O O O O O O
+PRED: O O O O O O O O O O O I-MISC I-MISC O I-LOC O O O O I-LOC O
+
+--- EPOCH 13 ---
+Avg loss over last 500 updates: 1.0228274855595358
+Avg loss over last 500 updates: 0.8073219516770515
+Avg loss over last 500 updates: 0.8385460885869114
+Avg loss over last 500 updates: 0.9778256040808848
+Avg loss over last 500 updates: 0.9025562507424277
+Avg loss over last 500 updates: 0.8343701219654537
+evaluating..
+Evaluated 500
+Avg evaluation loss:
+processed 11170 tokens with 1231 phrases; found: 1178 phrases; correct: 857.
+accuracy:  73.90%; (non-O)
+accuracy:  94.31%; precision:  72.75%; recall:  69.62%; FB1:  71.15
+              LOC: precision:  83.52%; recall:  81.69%; FB1:  82.60  358
+             MISC: precision:  71.33%; recall:  56.02%; FB1:  62.76  150
+              ORG: precision:  63.85%; recall:  61.76%; FB1:  62.79  296
+              PER: precision:  70.05%; recall:  71.20%; FB1:  70.62  374
+
+2 random evaluation samples:
+SENT: HONG KONG 1996-08-29
+TRUE: I-LOC I-LOC O
+PRED: I-LOC I-LOC O
+SENT: <unk> 0000 0000 0000 0000 0000 0000 0000
+TRUE: I-ORG O O O O O O O
+PRED: I-ORG O O O O O O O
+
+--- EPOCH 14 ---
+Avg loss over last 500 updates: 0.8923789294563417
+Avg loss over last 500 updates: 0.8319656332130296
+Avg loss over last 500 updates: 0.8763949764427011
+Avg loss over last 500 updates: 0.8560448358717865
+Avg loss over last 500 updates: 0.8900122186315816
+Avg loss over last 500 updates: 0.7732713698826129
+evaluating..
+Evaluated 500
+Avg evaluation loss:
+processed 11170 tokens with 1231 phrases; found: 1190 phrases; correct: 871.
+accuracy:  75.83%; (non-O)
+accuracy:  94.43%; precision:  73.19%; recall:  70.76%; FB1:  71.95
+              LOC: precision:  85.92%; recall:  81.69%; FB1:  83.75  348
+             MISC: precision:  74.82%; recall:  54.45%; FB1:  63.03  139
+              ORG: precision:  63.49%; recall:  63.07%; FB1:  63.28  304
+              PER: precision:  68.92%; recall:  74.73%; FB1:  71.71  399
+
+2 random evaluation samples:
+SENT: The <unk> Woods , who turned <unk> Tuesday after winning an <unk> third successive U.S. <unk> <unk> , <unk> on the front nine , <unk> the first and seventh <unk> and <unk> the <unk> , <unk> ninth <unk> .
+TRUE: O O I-PER O O O O O O O O O O O I-MISC I-MISC I-MISC O O O O O O O O O O O O O O O O O O O O O O
+PRED: O I-PER I-PER O O O O O O O O O O O I-LOC O O O O O O O O O O O O O O O O O O O O I-MISC O O O
+SENT: <unk> 0000
+TRUE: I-ORG I-ORG
+PRED: I-ORG O
